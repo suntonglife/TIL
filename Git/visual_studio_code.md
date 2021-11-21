@@ -21,7 +21,7 @@
 - (만약 프롬프트로 할 경우 **cd 파일경로**: 해당파일로 들어가겠다)
 - **git init**: git의 관리를 받기 시작
 - **git config --global user.name'suntonglife'**: 내 아이디로 연결
--**git config --global user.email'tjtsghd97@gmail.com'**: 내 아이디로 연결(두개 다 쳐줘야함)
+- **git config --global user.email'tjtsghd97@gmail.com'**: 내 아이디로 연결(두개 다 쳐줘야함)
 - 저장폴더에 .git숨김파일이 열렸는지 확인
 
 ### 1.2. commit(버전생성)
