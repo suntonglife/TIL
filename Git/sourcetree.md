@@ -1,4 +1,4 @@
-# Git 사용법
+# Git 사용법-sourcetree 활용
 ----
 ## 1. Sourcetree 기본
 ----
