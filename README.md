@@ -5,4 +5,4 @@
 > 지속적인 수정으로 점차 채워나갈 예정  
 ----
 ## Git
-- [Git사용법-sourcetree활용](https://github.com/suntonglife/TIL/Git/sourcetree.md)
+- [Git사용법-sourcetree활용](Git/sourcetree.md)
