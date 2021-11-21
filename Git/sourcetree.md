@@ -1,6 +1,6 @@
 # Git 사용법
 ----
-## 1. Sourcetree를 이용한 방법
+## 1. Sourcetree 기본
 ----
 ### 1.1. creat
 - 새로운 저장소를 만드는 방법
@@ -40,3 +40,28 @@
 -이때 충돌이 일어난 상황은 같이 commit으로 달아주는 것이 좋음
 - 2way merge: 하나라도 다르면 충돌로 합쳐지지 않음
 - 3way merge: 여러파일중 하나만 바뀌면 변경내용으로 수정되어 commit됨
+
+
+## 2. sourcetree를 이용한 협업
+----
+### 2.1. 나의 저장소의 접근권한 주기
+- settings-> collaborators&teams 클릭-> collaborators에 협업자 이름 혹은 이메일 
+
+### 2.2. 접근권한 허용하기
+- 같이하는 사람의 이메일에서 view invitation 클릭-> accept invitation을 클릭하면 접근권한 가짐
+
+### 2.3. 협업 push &pull
+- 수정 후 push
+- 먼저 현재 상태의 원격저장소 version을 local 저장소로 pull 한뒤에 작업을 진행하는 것이 좋음
+- 작성 중 다른사람이 같은 행 추가 후 먼저 푸시할경우 충돌
+- 이때에는 pull을 먼저 한뒤에 충돌난 부분을 해결 후 다시 푸시(**merge commit이라고 함**)
+
+### 2.4. fetch
+- 원격저장소의 내용은 가져오되 지역저장소의 branch에 병합은 하지 않는 것
+- pull- merge=fetch
+
+### 2.5. pull request
+- 오픈소스의 경우 pull은 가능 하지만 맘대로 push는 불가능
+- pull request는 자신 것을 pull해달라고 요청하고 해당 오픈소스의 주인이 수락하게 되면 해당 commit이 승인됨 
+- fork: 다른 사람의 저장소를 내것처럼 쓰겠다! 
+- fork과정에서 수정사항이 유의미하다고 하면 pull request 사용
