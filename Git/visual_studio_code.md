@@ -82,7 +82,7 @@
 - branch의 모든 commit을 병합하는 것이 아닌 일부 중요사항만 빼오는 것
 - **git chrry-pick <span style="color:darkblue">빼올 commit의 앞6자리**: commit을 빼와서 branch에 내용 추가(두 branch가 병합되진 않음)
 
-##2. 협업하기
+## 2. 협업하기
 - **git remote <span style="color:darkblue">add local이름(ex>orgin) <span style="color:red">url**: 원격 url의 주소를 local 이름으로 저장해 두겠다.
 - **git pull <span style="color:darkblue">원격이름(ex>orgin)**: 원격저장소에서 orgin의 버전을 가져옴
 - **git push <span style="color:darkblue">원격이름(ex>orgin)</span> <span style="color:red">branch이름:** 원격저장소 orgin에 현재의 branch를 올림
