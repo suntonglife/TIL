@@ -31,7 +31,8 @@
 - **git rm 파일명.파일형식**: 특정 파일을 stage에서 내리기
 - **git rm –r 폴더명**: 해당 폴더의 모든 파일을 stage에서 내리기
 - **git diff**: 변경사항 보기
-- **git commit –m <span style="color:darkblue">돌아갈시점의 commit의 앞 6자리</span>‘commit에 붙일 부가설명**’: 부가설명과 함께 stage상 파일 commit 하기
+- **git commit –m "commit에 붙일 부가설명**": 부가설명과 함께 stage상 파일 commit 하기
+- **git commit -am "commit에 붙일 부가설명**": add와 commit을 동시에 하는 명령어
 - **git log**: history 보기
 (만약 git log 입력 후 타자가 안쳐질 경우 **:q**를 누르면 해결가능)
 
