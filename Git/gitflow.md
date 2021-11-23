@@ -15,7 +15,8 @@
 - 제품으로 바로 출시될 수 있는 branch
 -  master는 언제나 실행가능한 상태여야 함
 - master에 올릴때마다 태그로 버전정보를 입력하는 것이 좋음(v1.0.0)
-- git merge —no-ff 병합할 branch: 병합할 branch를 merge 할 때 fast forward 하지마! 즉, 기존의 branch를 가만히 두고 새로운 commit을 만들어 해당 commit에서 merge
+- **git merge —no-ff 병합할 branch**: 병합할 branch를 merge 할 때 fast forward 하지마! 
+즉, 기존의 branch를 가만히 두고 새로운 commit을 만들어 해당 commit에서 merge
 
 ### 2.2. develop(dev,development)
 - master에 올리기 위한 과정을 작업하는 branch
