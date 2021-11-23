@@ -9,7 +9,8 @@
 **즉, master는 최종 배포용으로만 만들기**
 
 ## 2. git flow의 구성
-<img src="Git/img/git-flow.png" width="50%" height="50%">
+<img src="https://github.com/suntonglife/TIL/blob/a9330f644c55a216bb5fdb68559e3e55cd0fe011/Git/img/git-flow.png" width="50%" height="50%">
+
 ### 2.1. master
 - 제품으로 바로 출시될 수 있는 branch
 -  master는 언제나 실행가능한 상태여야 함
