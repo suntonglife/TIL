@@ -17,7 +17,7 @@
 -  master는 언제나 실행가능한 상태여야 함
 - master에 올릴때마다 태그로 버전정보를 입력하는 것이 좋음(v1.0.0)
 - **git merge --no-ff 병합할 branch**: 병합할 branch를 merge 할 때 fast forward 하지마! 
-즉, 기존의 branch를 가만히 두고 새로운 commit을 만들어 해당 commit에서 merge
+- 즉, 기존의 branch를 가만히 두고 새로운 commit을 만들어 해당 commit에서 merge
 <img src="https://github.com/suntonglife/TIL/blob/94d32b211e675e43b661c3e1c5f234369b16caf1/Git/img/no--ff.gif" width="80%" height="80%">
 
 ### 2.2. develop(dev,development)
