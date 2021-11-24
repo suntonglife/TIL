@@ -80,6 +80,8 @@
 - **git log --graph --all --decorate**: 그림으로 보여주기
 
 ### 1.7 cherry pick
+<img src="https://github.com/suntonglife/TIL/blob/94d32b211e675e43b661c3e1c5f234369b16caf1/Git/img/cherrypick.gif" width="50%" height="50%">
+
 - branch의 모든 commit을 병합하는 것이 아닌 일부 중요사항만 빼오는 것
 - **git chrry-pick <span style="color:darkblue">빼올 commit의 앞6자리**: commit을 빼와서 branch에 내용 추가(두 branch가 병합되진 않음)
 
