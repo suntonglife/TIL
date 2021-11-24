@@ -18,7 +18,8 @@
 - master에 올릴때마다 태그로 버전정보를 입력하는 것이 좋음(v1.0.0)
 - **git merge --no-ff 병합할 branch**: 병합할 branch를 merge 할 때 fast forward 하지마! 
 즉, 기존의 branch를 가만히 두고 새로운 commit을 만들어 해당 commit에서 merge
-<img src="https://github.com/suntonglife/TIL/blob/94d32b211e675e43b661c3e1c5f234369b16caf1/Git/img/no--ff.gif" width="50%" height="50%">
+<img src="https://github.com/suntonglife/TIL/blob/94d32b211e675e43b661c3e1c5f234369b16caf1/Git/img/no--ff.gif" width="80%" height="80%">
+
 ### 2.2. develop(dev,development)
 - master에 올리기 위한 과정을 작업하는 branch
 
@@ -34,7 +35,8 @@
 <br>
 
 ## 3. Git flow command line program(gitflow cli)
-<img src="https://github.com/suntonglife/TIL/blob/94d32b211e675e43b661c3e1c5f234369b16caf1/Git/img/gitflowcil.png" width="50%" height="50%">
+<img src="https://github.com/suntonglife/TIL/blob/94d32b211e675e43b661c3e1c5f234369b16caf1/Git/img/gitflowcil.png" width="80%" height="80%">
+
 ### 3.1. 관련 코드
 - **git flow init**: git flow model 생성(5가지의 branch 이름 설정창이 나타남)
 - **cat . git/config**: git flow와 관련된 설정들이 나타남
@@ -66,7 +68,8 @@
    - **세번째 뜨는 화면**: develop과 병합하는 작업에 대한 commit message
    - ###### 맨 윗줄에 입력 후 :wq 입력 시 저장
 <br>
----
+
 ## 참고자료
 - 생활코딩 https://www.youtube.com/watch?v=w2F8O9J1keM
+
 - CS Visualized: Useful Git Commands https://bit.ly/3nMHGfM
