@@ -8,7 +8,7 @@
 - **esc+:q**: 빔 에디터를 나가는 방법
 - **git 특정명령어(ex>remote) --help**: 관련 명령어의 세부설명 페이지 요청
    - ###### 이때의 설명 속 []내용은 선택사항으로 안써도 무방한 내용들
-- **git tag v1.0**: 현재 commit에 태크를 다는 것으로 숫자 6자리 대신 이 버전(v1.0)을 입력해도 가능
+- **git tag v1.0**: 현재 commit에 태크를 다는 것(태그 사용시 기존 숫자 6자리 대신 이 버전(v1.0)을 입력해도 가능)
 - **git stash**: 현재 branch의 내용을 임시저장
 - **git stash apply**: 임시저장 내용 불러오기
 - **git stash list**: 임시저장 목록 불러오기
@@ -33,6 +33,7 @@
 - **git diff**: 변경사항 보기
 - **git commit –m "commit에 붙일 부가설명**": 부가설명과 함께 stage상 파일 commit 하기
 - **git commit -am "commit에 붙일 부가설명**": add와 commit을 동시에 하는 명령어
+  - 단, 이때 한번 이상 commit이 된 경우만 가능!
 - **git log**: history 보기
 (만약 git log 입력 후 타자가 안쳐질 경우 **:q**를 누르면 해결가능)
 
